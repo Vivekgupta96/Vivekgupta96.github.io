@@ -33,17 +33,6 @@ nav {
 }
 
 /* ============= */
-/* .checkbtn {
-    font-size: 30px;
-    color: white;
-    float: right;
-    line-height: 80px;
-    right: -40px;
-    cursor: pointer;
-    position: absolute;
-    display: none;
-}
- */
 
 
 /* ============= */
@@ -288,7 +277,7 @@ nav .fas {
 /* ................................About Section............................. */
 #about {
 
-    margin: auto;
+    /* margin: auto; */
     width: 100%;
     height: auto;
     padding-bottom: 20px;
@@ -378,7 +367,7 @@ nav .fas {
 /* ........................................Project Section .................................. */
 
 #projects h1 {
-    padding-top: 5%;
+    padding-top: 8%;
     text-align: center;
     font-size: 40px;
     margin-bottom: 3%;
