@@ -1,19 +1,19 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Tahoma';
+    font-family: 'Poppins', sans-serif;
 }
 
 body {
 
-    background-color:white;
+    background-color:whitesmoke;
 }
 
 #nav-menu {
 
-    background-color: #0d536e;
-    padding: 18px 10%;
-    height: 40px;
+    background-color: #2a454f;
+    padding: 9px 2%;
+    height: 43px;
     border: 2px solid RGB(35, 40, 62);
 }
 
@@ -196,14 +196,14 @@ nav .fas {
 
 
 #home .home-content .text-1 {
-    font-size: 40px;
-    color: #0d536e;
+    font-size: 30px;
+    color: rgb(170, 29, 60);
 }
 
 #home .home-content .text-2 {
-    font-size: 70px;
+    font-size: 65px;
     font-weight: 600;
-    color: rgb(170, 29, 60);
+    color: #0d536e;
 }
 
 #home .home-content .text-3 {
@@ -276,7 +276,6 @@ nav .fas {
 
 /* ................................About Section............................. */
 #about {
-
     /* margin: auto; */
     width: 100%;
     height: auto;
@@ -286,11 +285,11 @@ nav .fas {
 }
 
 #about h1 {
-    padding-top: 20%;
-   
+    padding-top: 8%;
     text-align: center;
     font-size: 40px;
     color: #0a3d52;
+
 }
 
 .about-section1 {
@@ -298,17 +297,17 @@ nav .fas {
     margin-top: 4%;
     width: 80%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .about-section1>div>img {
-    width: 150%;
-    border-radius: 15px;
+    width: 70%;
+    border-radius: 10%;
 }
 
 #user-detail-intro {
     margin-top: 7%;
-    margin-left: 30%;
+    margin-left: 10%;
     color: #0a3d52;
     font-size: 18px;
     font-weight: 500;
@@ -318,7 +317,7 @@ nav .fas {
 
 /* ..............................Skill Section......................... */
 #skills h1 {
-    padding-top: 10%;
+    padding-top: 8%;
     color: #0a3d52;
     text-align: center;
     font-size: 40px;
@@ -354,7 +353,7 @@ nav .fas {
 }
 
 .skills-card img {
-    width: 60%;
+    width: 50%;
     padding-top: 4%;
 }
 
@@ -382,7 +381,6 @@ nav .fas {
     width: 70%;
     display: block;
     margin: auto;
-    background-color:rgb(187, 41, 41);
 }
 
 #project-heading{
@@ -393,7 +391,7 @@ nav .fas {
     width: 100%;
     display: flex;
     box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
-    background-color: RGB(35, 40, 62);
+    background-color:  #2a454f;
     color: white;
     margin-bottom: 5%;
     padding: 3% 1% 3% 1%;
@@ -405,7 +403,7 @@ nav .fas {
 }
 
 #firstprojectdiv img {
-    width: 90%;
+    width: 70%;
     height: auto;
     margin: 10px;
     border-radius: 10px;
@@ -500,7 +498,7 @@ nav .fas {
     text-align: center;
     font-size: 40px;
     margin-bottom: 3%;
-    color: white;
+    color: #0a3d52;
     padding-top: 30px;
 }
 
@@ -526,7 +524,7 @@ nav .fas {
     padding: 5px;
     width: 100%;
     margin-top: 6%;
-    background-color:  #0a3d52;
+    background-color:  #2a454f;
     
 }
 
