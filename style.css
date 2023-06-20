@@ -179,13 +179,17 @@ nav .fas {
 
 /* ............................................Home Section.................................. */
 
+
+
 #home {
     position: relative;
     height: 100vh;
     min-height: 500px;
+    background-image: url(./images/bg.png); /* Replace 'path_to_your_image.jpg' with the actual path to your image */
     background-size: cover;
     background-attachment: fixed;
     text-align: center;
+    opacity: 1;
 }
 
 #home .max-width {
@@ -197,13 +201,13 @@ nav .fas {
 
 #home .home-content .text-1 {
     font-size: 30px;
-    color: rgb(170, 29, 60);
+    color: rgb(176, 168, 170);
 }
 
 #home .home-content .text-2 {
     font-size: 65px;
     font-weight: 600;
-    color: #0d536e;
+    color: white;
 }
 
 #home .home-content .text-3 {
@@ -212,13 +216,13 @@ nav .fas {
 }
 
 #home .home-content .text-3 span {
-    color: #0d536e;
+    color:white;
     font-weight: 600;
 }
 
 #home .home-content a {
     display: inline-block;
-    color:#0d536e;
+    color:white;
     background: none;
     border: none;
     font-size: 25px;
@@ -298,11 +302,12 @@ nav .fas {
     width: 80%;
     display: flex;
     justify-content: space-around;
+    border: 2px solid rgb(63, 101, 205);
 }
 
 .about-section1>div>img {
-    width: 100%;
-    border-radius: 15%;
+    width: 174%;
+    border-radius: 50%;
 }
 
 #user-detail-intro {
@@ -311,6 +316,7 @@ nav .fas {
     color: #0a3d52;
     font-size: 17px;
     font-weight: 500;
+    opacity: 19;
 }
 
 
@@ -368,7 +374,7 @@ nav .fas {
 #projects h1 {
     padding-top: 8%;
     text-align: center;
-    font-size: 40px;
+    font-size: 33px;
     margin-bottom: 3%;
     color: #0a3d52;
 }
@@ -441,11 +447,12 @@ nav .fas {
 
 .project-github-link {
     display: flex;
-    width: 35%;
-    border: 1px solid white;
+    width: 42%;
+    border: 2px solid white;
     justify-content: center;
     align-items: center;
     cursor: pointer;
+    border-radius: 8px;
 }
 
 .project-github-link a {
@@ -464,11 +471,13 @@ nav .fas {
 
 .project-deployed-link {
     display: flex;
-    width: 35%;
+    width: 42%;
     border: 1px solid white;
     justify-content: center;
     align-items: center;
     cursor: pointer;
+    border: 2px solid white;
+    border-radius: 8px;
 }
 
 .project-deployed-link a {
