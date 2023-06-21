@@ -280,7 +280,7 @@ nav .fas {
 
 /* ................................About Section............................. */
 #about {
-    /* margin: auto; */
+    margin: auto;
     width: 100%;
     height: auto;
     padding-bottom: 20px;
@@ -299,10 +299,12 @@ nav .fas {
 .about-section1 {
     margin: auto;
     margin-top: 4%;
-    width: 80%;
+    width: 85%;
     display: flex;
     justify-content: space-around;
-    border: 2px solid rgb(63, 101, 205);
+    padding: 20px;
+    border: 2px solid rgb(177, 177, 183);
+    border-radius: 8px;
 }
 
 .about-section1>div>img {
@@ -574,7 +576,7 @@ nav .fas {
 /* -------------------media query------------------------------------ */
 
 
-@media screen and (min-width: 820px) and (max-width:1180px) {
+@media screen and (min-width: 821px) and (max-width:1180px) {
 
 
 
@@ -764,10 +766,7 @@ nav .fas {
         grid-template-columns: repeat(2, 1fr);
         gap: 5px;
     }
-    /* .react-activity-calendar h1{
-  width: 100px;
-  margin-left: 30px;
-  } */
+    
 
 }
 
@@ -779,6 +778,41 @@ nav .fas {
 /* ================================================= */
 
 @media screen and (min-width: 653px) and (max-width:820px) {
+/* border: 2px solid red; */
+    /* **********************about section************ */
+    #about {
+        /* margin: auto; */
+        width: 100%;
+        height: auto;
+        padding-bottom: 20px;
+        margin-bottom: 15%;
+        background-color:whitesmoke;
+       
+    }
+    
+    #about h1 {
+        padding-top: 8%;
+        text-align: center;
+        font-size: 40px;
+        color: #0a3d52;
+      
+    }
+    
+    .about-section1 {
+        margin: auto;
+        margin-top: 4%;
+        width: 80%;
+        display: flex;
+        justify-content: space-around;
+        
+    }
+
+    .about-section1>div>img {
+        width: 150%;
+        border-radius: 50%;
+        margin: auto;
+    }
+    
 
     
     .skill {
@@ -815,10 +849,117 @@ nav .fas {
 
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ********************************* */
 @media all and (max-width: 653px) {
 
-    .project-card {
+    #home {
+        position: relative;
+        height: 100vh;
+        min-height: 500px;
+        background-image: url(./images/bg.png); /* Replace 'path_to_your_image.jpg' with the actual path to your image */
+        background-size: cover;
+        background-attachment: fixed;
+        text-align: center;
+        opacity: 1;
+
+        margin: 0px;
+    }
+    
+    #home .max-width {
+        padding-top: 8%;
+        width: 100%;
+        display: flex;
+    }
+    
+
+    .home-content {
+        width: 100%;
+        margin: auto;
+        justify-content: space-between;
+        margin-top: 30px;
+    }
+    
+    /* border: 2px solid red; */
+    /* **********************about section************ */
+    #about {
+        /* margin: auto; */
+        width: 100%;
+        height: auto;
+        padding-bottom: 20px;
+        margin-bottom: 15%;
+        background-color:whitesmoke;
+       
+    }
+    
+    #about h1 {
+        padding-top: 8%;
+        text-align: center;
+        font-size: 40px;
+        color: #0a3d52;
+      
+    }
+    
+    .about-section1 {
+        margin: auto;
+        margin-top: 4%;
+        width: 80%;
+        display: flex;
+        justify-content: space-around;
+        
+    }
+
+    .about-section1>div>img {
+        width: 150%;
+        border-radius: 50%;
+        margin: auto;
+    }
+    
+
+    
+    
+/* ************************************************/
+
+  .project-card {
         display: block;
+        padding: 15px;
+       
+    }
+
+    #firstprojectdiv img {
+        width: 70%;
+        margin-left: 50px;
+        height: auto;
+        margin: 10px;
+        border-radius: 8px;
+    
     }
 
     .github {
